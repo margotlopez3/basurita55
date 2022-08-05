@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ * Programas  creados  por  Diana Margot López Herrera
+ * para el curso de  Tecnicas de programación
+ * Pueden ser usados  por los estudiantes con fines académicos
+ */
+
+package Utilidades;
+
+/**
+ *
+ * @author estudiante
+ */
+public class MiException extends Exception {
+   
+    public MiException(String mensaje){
+        super(mensaje);
+    }
+    public MiException(){
+        super("encontre un error propio");
+    }
+}
